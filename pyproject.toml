@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "duq-ds3-2024"
+version = "0.1.0"
+description = "Example files for Duquesne's DS330 class"
+authors = ["Arthur <sugdena@duq.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.1.4"
+numpy = "^1.26.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

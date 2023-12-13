@@ -37,6 +37,12 @@ curl -sSL https://install.python-poetry.org | python3 -
 
 see https://python-poetry.org/docs/#installing-with-the-official-installer for Windows installation.
 
+I am a strong propoennt of having virual environments within the project. Therefore, I also change the configuration:
+
+```
+poetry config virtualenvs.in-project true
+```
+
 ## Setting up a git project (once)
 
 The easiest way is to first set up the project in `git` and then clone it to your computer.
@@ -59,7 +65,7 @@ In VSCode, open the directory for ONLY A SINGLE PROJECT. I cannot stress this en
 
 1. Create a `.vscode` directory and copy in the `launch.json` and `settings.json` files included here.
 1. Copy in the `.gitignore` file to ensure random junk is not uploaded to git.
-1. Open the VSCode terminal (you can create a New Terminal in the top menu or just click the circle with an X button at the bottom). Type `poetry init`. This will create a new virtual environment.
-1. You can add new packages with `poetry add pandas` for example. And run `poetry install` to make sure everything is up to date.
+1. Open the VSCode terminal (you can create a New Terminal in the top menu or just click the circle with an X button at the bottom). Type `poetry init`. This will create a new virtual environment and will ask you a few questions. You don't need to add requirements interactively. This will create a file called `pyproject.toml`. This is a very important file that describes all of the dependencies of your project, and it should go to github.
+1. You can add new packages with `poetry add pandas` for example. And run `poetry install` to make sure everything is up to date. You will see a new file called `poetry.lock`, which is also very important and should go to github. It ensures that you can perfectly reproduce all of the packages and package versions on a different computer.
 1. Change the path in `settings.json` to match your computer. You can keep everything from `.venv/bin/activate` but you will have to change the first part of the line to be the location of the directory on your computer.
 1. As you go, you can continue to add packages with `poetry add` and `poetry install`.
