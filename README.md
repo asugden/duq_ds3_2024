@@ -64,7 +64,7 @@ git clone git@github.com:asugden/duq_ds3_2024.git duq_ds3_2024/
 In VSCode, open the directory for ONLY A SINGLE PROJECT. I cannot stress this enough. Anything else will cause problems with git and environments.
 
 1. Create a `.vscode` directory and copy in the `launch.json` and `settings.json` files included here.
-1. Copy in the `.gitignore` file to ensure random junk is not uploaded to git.
+1. Copy in the `.gitignore` file to ensure random junk is not uploaded to git. This is important. If you make a mistake and accidentally push your `.venv` directory, it's a massive pain and can make a repo worse for the future.
 1. Open the VSCode terminal (you can create a New Terminal in the top menu or just click the circle with an X button at the bottom). Type `poetry init`. This will create a new virtual environment and will ask you a few questions. You don't need to add requirements interactively. This will create a file called `pyproject.toml`. This is a very important file that describes all of the dependencies of your project, and it should go to github.
 1. You can add new packages with `poetry add pandas` for example. And run `poetry install` to make sure everything is up to date. You will see a new file called `poetry.lock`, which is also very important and should go to github. It ensures that you can perfectly reproduce all of the packages and package versions on a different computer.
 1. Change the path in `settings.json` to match your computer. You can keep everything from `.venv/bin/activate` but you will have to change the first part of the line to be the location of the directory on your computer.
