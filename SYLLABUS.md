@@ -66,8 +66,10 @@ You may have noticed that you've been sent a slack invite. This is never require
 
 ## Week 1
 
-- Discussing each student's desired outcomes from the course
+- Discuss everyone's backgorunds
+- Discuss each student's desired outcomes from the course
 - VSCode/local coding
+  - Install VSCode
 - Code documentation
   - Fuctions
   - Type hinting
@@ -85,6 +87,10 @@ You may have noticed that you've been sent a slack invite. This is never require
   - pulling
   - branching
   - diff
+- Go over some cool models from industry
+  - Spotify
+  - ChatGPT, quickly
+- Discuss features and labels
 
 Evaluation:
 
@@ -94,17 +100,25 @@ Evaluation:
 ## Week 2
 
 Dataset: https://github.com/nytimes/covid-19-data/blob/master/us-counties.csv
+Dataset: https://reporter.nih.gov/exporter
 
-Evaluation: https://www.youtube.com/watch?v=_uQrJ0TkZlc through Classes
-
+- Rules for ChatGPT and why
+- CVs/Resumes
+  - Focus on projects
+  - Improve your Github
+  - Match keywords from job descriptions
 - Pandas
   - All Pandas, all the time
+  - What is Pandas?
+    - Numpy-based, which is C-based
   - Comfort and speed
   - Good habits such as apply
   - Bad habits such as for loops
   - Data merging
 - Pandas is easy, efficiency is hard
 - Numpy/Pandas translation
+
+Evaluation: https://www.youtube.com/watch?v=_uQrJ0TkZlc through Classes
 
 Evaluation:
 
