@@ -99,7 +99,6 @@ Evaluation:
 
 ## Week 2
 
-Dataset: https://github.com/nytimes/covid-19-data/blob/master/us-counties.csv
 Dataset: https://reporter.nih.gov/exporter
 
 - Rules for ChatGPT and why
@@ -117,40 +116,39 @@ Dataset: https://reporter.nih.gov/exporter
   - Data merging
 - Pandas is easy, efficiency is hard
 - Numpy/Pandas translation
-
-Evaluation: https://www.youtube.com/watch?v=_uQrJ0TkZlc through Classes
+- Grants data reading function
 
 Evaluation:
 
-- Identify interesting datasets
-- Combine, subset, and clean datasets
-- Give at least one bad example and one good example
-- Convert from pandas to numpy and back
+- How do you fill in the missing dates from the grants data?
 
-## Week 3-4
+## Week 3
 
 - Classification introduction
   - Examples of classification in data science
-  - Discussion of classifier types
-  - Formatting data for classification
+- Create a reusable function for training a classifier
+- Create a reusable function for saving a classifier
+- Create a reusable function for loading and running a classifier
   - Scikit-learn
 
 Evaluation:
 
-- Run a classifier
-- Create a reusable function for training a classifier
-- Create a reusable function for saving a classifier
-- Create a reusable function for loading and running a classifier
+- Move the classifier into a new project-specific repository
 
-## Week 5-7
+## Week 4
 
+- Talk about the hackathon
 - Decision trees
 - Random forest
 - XGBoost
-
-Evaluation:
-
-- Create an XGBoost classifier with class wrapper
+- Download the wine quality dataset: https://archive.ics.uci.edu/dataset/186/wine+quality
+  - Use it with an xgboost model
+- Natural language processing
+  - spacy
+  - fasttext
+  - nltk
+- Download the weekly incremental NPI file: https://download.cms.gov/nppes/NPI_Files.html
+- Create a file reader to put it in the same format
 
 ## Remaining topics
 
