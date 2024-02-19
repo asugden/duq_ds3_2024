@@ -154,7 +154,13 @@ Evaluation:
 
 - Create a file reader to put the incremental NPI in a useful format for matching with the grants data
 
-## Week 6
+## Week 5
+
+NOTE: Installing fasttext on python 3.12 or higher requires a workaround:
+
+```
+poetry add git+https://github.com/cfculhane/fastText
+```
 
 - Return to Semantle as an example of word2vec
 - Compare on the screen the reader functions submitted by each person

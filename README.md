@@ -69,3 +69,11 @@ In VSCode, open the directory for ONLY A SINGLE PROJECT. I cannot stress this en
 1. You can add new packages with `poetry add pandas` for example. And run `poetry install` to make sure everything is up to date. You will see a new file called `poetry.lock`, which is also very important and should go to github. It ensures that you can perfectly reproduce all of the packages and package versions on a different computer.
 1. Change the path in `settings.json` to match your computer. You can keep everything from `.venv/bin/activate` but you will have to change the first part of the line to be the location of the directory on your computer.
 1. As you go, you can continue to add packages with `poetry add` and `poetry install`.
+
+## Other packages
+
+NOTE: Installing fasttext on python 3.12 or higher requires a workaround:
+
+```
+poetry add git+https://github.com/cfculhane/fastText
+```

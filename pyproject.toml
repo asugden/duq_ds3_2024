@@ -11,6 +11,7 @@ pandas = "^2.1.4"
 numpy = "^1.26.2"
 xgboost = "^2.0.3"
 scikit-learn = "^1.4.0"
+fasttext = {git = "https://github.com/cfculhane/fastText"}
 
 
 [build-system]
