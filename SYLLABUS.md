@@ -138,9 +138,10 @@ Evaluation:
 ## Week 4
 
 - Talk about the hackathon
-- Decision trees
-- Random forest
-- XGBoost
+- Talk about Semantle
+- Decision trees slides
+  - Random forest
+  - XGBoost
 - Download the wine quality dataset: https://archive.ics.uci.edu/dataset/186/wine+quality
   - Use it with an xgboost model
 - Natural language processing
@@ -148,7 +149,30 @@ Evaluation:
   - fasttext
   - nltk
 - Download the weekly incremental NPI file: https://download.cms.gov/nppes/NPI_Files.html
-- Create a file reader to put it in the same format
+
+Evaluation:
+
+- Create a file reader to put the incremental NPI in a useful format for matching with the grants data
+
+## Week 6
+
+- Return to Semantle as an example of word2vec
+- Compare on the screen the reader functions submitted by each person
+- Use one to load data
+- Talk about bias in data
+  - Finance field, zip code
+  - Amazon hiring
+  - Judicial predictions
+- Create a function together to produce entity resolution features
+- How to create training data
+- Easy, medium, and hard
+- Recursive model
+  - Bias
+- Possibly: nearest neighbor indices
+
+Evaluation:
+
+- Create the best possible model to align the two datasets
 
 ## Remaining topics
 
