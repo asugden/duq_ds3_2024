@@ -12,7 +12,7 @@ class GrantsData:
         # Data can have NaNs
         # Different types (reasonable)
         # Different types (unreasonable)
-        print(self.df)
+        return self.df
 
     @staticmethod
     def _select_columns(df: pd.DataFrame) -> pd.DataFrame:
@@ -78,8 +78,6 @@ if __name__ == '__main__':
     import numpy as np
     # '/mnt/search/data/grants/RePORTER_PRJ_C_FY2022.zip'
 
-    vec1 = [i for i in range(1_000_000)]
-    vec2 = np.arange(1_000_000)
-
-    read_grants_year(2022)
+    df = read_grants_year(2022)
+    print(df)
     # gd = GrantsData()
