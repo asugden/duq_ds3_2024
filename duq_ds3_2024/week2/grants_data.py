@@ -58,9 +58,6 @@ class GrantsData:
         df[['last_name', 'forename']] = pd.DataFrame(df['both_names'].to_list(), index=df.index)
         print(df)
 
-        
-
-
 
 def read_grants_year(year: int | str) -> pd.DataFrame:
     """Read in Grants Data for a year and return as clean dataframe
