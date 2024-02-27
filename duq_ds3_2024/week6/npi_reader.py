@@ -2,7 +2,7 @@ import pandas as pd
 
 
 def read(path: str) -> pd.DataFrame:
-    """Read in an npi file from path, clean, and return"""
+    """Read in NPI data and rename columns"""
     df = pd.read_csv(path)
     mapper = {
             'NPI': 'npi',

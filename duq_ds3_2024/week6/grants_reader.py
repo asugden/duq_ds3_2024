@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-class GrantsData:
+class GrantsReader:
     def __init__(self, path: str):
         self.df = pd.read_csv(path, compression='zip')
 
@@ -56,7 +56,10 @@ class GrantsData:
         df['pi_names'] = df['pi_names'].str.replace('(contact)', '')
         df['both_names'] = df['pi_names'].apply(lambda x: x.split(',')[:2])
         df[['last_name', 'forename']] = pd.DataFrame(df['both_names'].to_list(), index=df.index)
-        print(df)
+        return df
+
+        
+
 
 
 def read_grants_year(year: int | str) -> pd.DataFrame:
@@ -69,15 +72,16 @@ def read_grants_year(year: int | str) -> pd.DataFrame:
         pd.DataFrame: clean dataframe of grants data
     """
     # We know the filename is: RePORTER_PRJ_C_FY2022.zip
-    path = 'data/RePORTER_PRJ_C_FY{year}.zip'
-    gd = GrantsData(path.format(year=year))
+    path = "data/RePORTER_PRJ_C_FY2022.zip"
+    gd = GrantsReader(path.format(year=year))
     return gd.read()
+
 
 
 if __name__ == '__main__':
     import numpy as np
-    # '/mnt/search/data/grants/RePORTER_PRJ_C_FY2022.zip'
 
     df = read_grants_year(2022)
     print(df)
     # gd = GrantsData()
+    

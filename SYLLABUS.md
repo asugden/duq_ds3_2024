@@ -171,14 +171,30 @@ poetry add git+https://github.com/cfculhane/fastText
   - Judicial predictions
 - Create a function together to produce entity resolution features
 - How to create training data
-- Easy, medium, and hard
-- Recursive model
+  - Simulation
+  - Hand-labeling
+  - Recursive
+- Recursive model training
   - Bias
-- Possibly: nearest neighbor indices
+  - Bootstrapping + class mislabels
 
 Evaluation:
 
 - Create the best possible model to align the two datasets
+
+## Week 6
+
+The day of code
+
+- Talk through everyone's classifier
+- Create training data together (20-100 entries only)
+- Combine together the functions to be able to train data
+- Create sequential training data
+
+The "blocking" problem
+
+- Blocking problem and nearest neighbor indices
+- Combine together to create a tool to classify the two datasets
 
 ## Remaining topics
 
@@ -196,9 +212,6 @@ Evaluation:
     - Histograms
     - Timeseries plots
 
-- Bias in underlying datasets
-- Bootstrapping + class mislabels
-
 - Deep classification with neural nets
 
   - Fundamentals of neural networks
@@ -209,7 +222,6 @@ Evaluation:
   - LSTMs
   - Deep NNs
 
-- Natural language processing
 - Embedding
 - Nearest neighbor search
 
