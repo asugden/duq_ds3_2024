@@ -196,6 +196,31 @@ The "blocking" problem
 - Blocking problem and nearest neighbor indices
 - Combine together to create a tool to classify the two datasets
 
+## Week 7
+
+- How has each person addressed the blocking problem?
+- How has each person created a training set?
+
+  - We need more data. Let's use a database
+
+- Why a database?
+  - Keeps data in sync between people
+  - Designed for fast reading
+  - Consistency
+- SQL introduction
+  - SQLite v MySQL v Postgres
+  - CREATE
+  - row types
+- Data tables
+- Bridge tables
+
+  - Relationships between tables
+
+- Create database for our two datasets
+- Create bridge table
+
+- Embed and Blocking
+
 ## Remaining topics
 
 - Classification
