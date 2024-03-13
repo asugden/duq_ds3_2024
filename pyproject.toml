@@ -13,6 +13,7 @@ xgboost = "^2.0.3"
 scikit-learn = "^1.4.0"
 fasttext = {git = "https://github.com/cfculhane/fastText"}
 jarowinkler = "^2.0.1"
+sqlalchemy = "^2.0.28"
 
 
 [build-system]

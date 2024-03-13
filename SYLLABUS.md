@@ -180,7 +180,9 @@ poetry add git+https://github.com/cfculhane/fastText
 
 Evaluation:
 
-- Create the best possible model to align the two datasets
+- We know that there are tools that can find similarity in vectors (hnsw) as well as tools that can create vectors out of anything (e.g. word2vec or fasttext ). How can we use these ideas to ensure that we don’t do all-to-all comparisons?
+- We put together a tool that could pass test data through, but not training data. Can you create a small number of rows of training data-- 20 at least-- in a CSV.
+- Pass the training data through the classifier. It’s key that you can return the probabilities here. Remember, we’ll use this to identify a range of difficulties of problem to feed back in
 
 ## Week 6
 
@@ -207,6 +209,12 @@ The "blocking" problem
   - Keeps data in sync between people
   - Designed for fast reading
   - Consistency
+- Short database types overview
+  - No SQL (e.g. MongoDB)
+  - SQL
+  - ETL (Extract, Transform, Load)
+  - Spark
+    - Databricks
 - SQL introduction
   - SQLite v MySQL v Postgres
   - CREATE
@@ -221,13 +229,11 @@ The "blocking" problem
 
 - Embed and Blocking
 
+Evaluation:
+
+- Create at least three tables-- one for npi data, one for grants data, and a bridge table. - Insert the data from the reader classes you’ve created into the table
+
 ## Remaining topics
-
-- Classification
-
-  - Bayesian
-  - SVM
-  - Catboost
 
 - Classifier evaluation
 
@@ -251,12 +257,6 @@ The "blocking" problem
 - Nearest neighbor search
 
 - Databases
-
-  - No SQL
-  - SQL
-  - ETL
-  - Spark
-  - Databricks
 
 - AWS
 - Google cloud
