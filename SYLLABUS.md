@@ -267,6 +267,7 @@ By next week, everyone should have (this is all from previous weeks)
 - You know that prep-before-the-midterm thing? That's this week. You've been working hard to get your code organized. We're going to start from scratch and reproduce everything, covering whatever questions you have. We will end with a working implementation of the entire pipeline based on everything we've learned, beginning with a brand-new repository. It is essential that you use this chance to ask all of those burning questions.
 
 - Are we training for false positives or false negatives?
+- What is the performance?
 
 ## Remaining topics
 
