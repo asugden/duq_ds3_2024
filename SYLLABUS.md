@@ -233,6 +233,41 @@ Evaluation:
 
 - Create at least three tables-- one for npi data, one for grants data, and a bridge table. - Insert the data from the reader classes you’ve created into the table
 
+## Week 8
+
+- Each person explains their current state
+
+- Continue with SQL
+
+  - SELECT and INSERT
+  - DELETE FROM
+  - JOIN
+  - WHERE
+
+- NetworkX and connected components
+- Store training data in database
+
+Evaluation:
+By next week, everyone should have (this is all from previous weeks)
+
+1. a grants reader class
+1. an npi/doctor reader class
+1. training data for a model to map people from grants to doctors (npi). Can be short.
+1. an XGB model that is a binary classifier to determine whether a grantee and doctor are the same person, trained from the data
+1. code to insert the cleaned grants data from (a) into the database
+1. code to insert the cleaned npi data from (b) into the database
+1. a sqlite database with the data inserted
+1. a bridge table as well in the sqlite database
+1. The only new thing is can you have code that can pull from the database that we will be able to pass through the XGB classifier
+
+- If you have everything and are pondering what to do-- take a moment to organize your code. It’s good to test it out in VSCode and you’ll be astounded by how much more you know about the problem and how much easier it is to organize it
+
+## Week 9
+
+- You know that prep-before-the-midterm thing? That's this week. You've been working hard to get your code organized. We're going to start from scratch and reproduce everything, covering whatever questions you have. We will end with a working implementation of the entire pipeline based on everything we've learned, beginning with a brand-new repository. It is essential that you use this chance to ask all of those burning questions.
+
+- Are we training for false positives or false negatives?
+
 ## Remaining topics
 
 - Classifier evaluation
@@ -252,11 +287,6 @@ Evaluation:
   - CNNs
   - LSTMs
   - Deep NNs
-
-- Embedding
-- Nearest neighbor search
-
-- Databases
 
 - AWS
 - Google cloud
