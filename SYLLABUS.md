@@ -266,8 +266,39 @@ By next week, everyone should have (this is all from previous weeks)
 
 - You know that prep-before-the-midterm thing? That's this week. You've been working hard to get your code organized. We're going to start from scratch and reproduce everything, covering whatever questions you have. We will end with a working implementation of the entire pipeline based on everything we've learned, beginning with a brand-new repository. It is essential that you use this chance to ask all of those burning questions.
 
+Evaluation (skipped for this week):
+
+# Week 10
+
+- Finishing up the review from Week 9
+- Focus on creating a dataset and training the model
+  - Reiterate using edge cases to improve model performance
+  - Cover the "blocking" process again
+    - Embedding + nearest neighbors
+    - By last name
+
+Evaluation:
+
+- Create the final file-- a file that loads in blocks of data from the database and runs the trained model on the output
+- Who makes the coolest CNN? https://teachablemachine.withgoogle.com/
+
+# Week 11
+
 - Are we training for false positives or false negatives?
 - What is the performance?
+
+- Neural networks
+- Types of neural networks
+
+  - Fundamentals of neural networks
+    - Relu
+    - Sigmoid
+    - Error functions
+  - CNNs
+  - LSTMs
+  - Deep NNs
+
+- Flask, if there's time
 
 ## Remaining topics
 
@@ -280,14 +311,6 @@ By next week, everyone should have (this is all from previous weeks)
     - Timeseries plots
 
 - Deep classification with neural nets
-
-  - Fundamentals of neural networks
-    - Relu
-    - Sigmoid
-    - Error functions
-  - CNNs
-  - LSTMs
-  - Deep NNs
 
 - AWS
 - Google cloud
