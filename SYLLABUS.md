@@ -284,6 +284,15 @@ Evaluation:
 
 # Week 11
 
+- Go through the final file-- pushed to week 12
+- Autoencoder in tensorflow
+- Create our own neural network library
+
+Evaluation:
+Optional: check out backpropagation at the "neuron" level here: https://github.com/asugden/nn_intro/tree/main/nn_intro/nn_by_scalar and https://www.youtube.com/watch?v=VMj-3S1tku0
+
+# Week 12
+
 - Are we training for false positives or false negatives?
 - What is the performance?
 
