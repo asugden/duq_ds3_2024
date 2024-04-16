@@ -284,7 +284,7 @@ Evaluation:
 
 # Week 11
 
-- Go through the final file-- pushed to week 12
+- Go through the final file-- pushed to week 13
 - Autoencoder in tensorflow
 - Create our own neural network library
 
@@ -293,37 +293,29 @@ Optional: check out backpropagation at the "neuron" level here: https://github.c
 
 # Week 12
 
+- Finish the autoencoder in tensorflow, training it on the wine quality dataset
+- Finish the neural network library
+- Apply tensortango (the NN library) to the wine quality dataset
+- Consider how CNNs are a minor variant of what we've built
+
+Evaluation:
+
+- Compare the predictions of wine quality from the XGBoost classifier we made back in week 4 with the outcomes of an XGBoost classifier trained on data that has been dimensionality reduced using an autoencoder?
+- We created the autoencoder in class with tensorflow, but for those folks who’ve been having problems running it, I will upload data with different numbers of dimensions
+- Then, can you state approximately what the underlying dimensionality of the data is and why?
+
+# Week 13
+
+- Go over the last file in the model
+- Graph theory
 - Are we training for false positives or false negatives?
-- What is the performance?
 
-- Neural networks
-- Types of neural networks
+# Week 14
 
-  - Fundamentals of neural networks
-    - Relu
-    - Sigmoid
-    - Error functions
-  - CNNs
-  - LSTMs
-  - Deep NNs
-
-- Flask, if there's time
-
-## Remaining topics
-
-- Classifier evaluation
-
-  - Confusion matrix
-  - F1 score, accuracy, precision, recall
-  - Diagnostic plotting - single biggest differentiator
-    - Histograms
-    - Timeseries plots
-
-- Deep classification with neural nets
-
+- Flask
 - AWS
 - Google cloud
 
-## Week 16
+## Final Exam
 
-Final exam
+A job interview in which we evaluate your entire Github, as well as ask questions on topics covered throughout the course
