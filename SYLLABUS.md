@@ -307,8 +307,24 @@ Evaluation:
 # Week 13
 
 - Go over the last file in the model
+
+  1. Get the "blocks" or set of last names from one of the datasets in the database
+  1. Iterate through the blocks, pulling data from the database
+  1. Create features from the two datasets
+  1. Predict whether the lines match
+  1. Add the matched lines to the bridge table in the database
+
 - Graph theory
+
+  - Download the MBTA data: https://mbta-massdot.opendata.arcgis.com/datasets/MassDOT::mbta-rapid-transit-stop-distances/explore
+  - If need be, consult the map: https://www.mbta.com/schedules/subway
+  - Create a graph in class that allows you to answer "what is the fastest way from Copley to Airport"
+  - Can consider adding penalties for switching lines
+  - Use `add_weighted_edges_from` and `shortest_path`
+
 - Are we training for false positives or false negatives?
+  - It is very important, for each problem, to consider what is the more problematic error case
+  - Compare opioid cravings to entity resolution
 
 # Week 14
 
