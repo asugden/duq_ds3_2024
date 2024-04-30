@@ -328,9 +328,19 @@ Evaluation:
 
 # Week 14
 
+This week is a grab-bag based on requests.
+
 - Flask
 - AWS
+  - EC2
+  - RDS
 - Google cloud
+  - Firebase
+- Feature engineering
+- TF-IDF
+- Tokenization
+- Image augmentation
+- Standardizing pixels
 
 ## Final Exam
 
